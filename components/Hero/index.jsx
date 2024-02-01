@@ -4,7 +4,7 @@ import React from "react";
 function Hero() {
   return (
     <div className="w-full">
-      <Image src={"/heroImg.png"} height={464} width={3000} alt="" />
+      <Image src={"/heroImg.png"} loading="lazy"	 height={464} width={3000} alt="" />
       <div className="w-full px-20 mt-[-153px]">
         <div className="w-full flex items-center justify-between">
           <Image src={"/profileImg.png"} width={306} height={306} alt="" />{" "}
