@@ -2,3 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+.tabs .ant-tabs-tab-active .ant-tabs-tab-btn{
+    color: #2D2D2F !important;
+    font-weight: 700 !important;
+    font-size: 18px !important;
+  }
+  .tabs .ant-tabs-tab-btn{
+    color: #838485 !important;
+    font-weight: 400 !important;
+    font-size: 18px !important;
+  }
+.tabs .ant-tabs-nav{
+    border-bottom: 1px solid #6B6B6B !important;
+}  
