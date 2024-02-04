@@ -1,5 +1,5 @@
 import React from 'react'
-import CareerCompose from '@/components/CareerCompose'
+import CareerCompose from '../../components/CareerCompose'
 
 function Career() {
   return (
