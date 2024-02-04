@@ -8,7 +8,7 @@ function Hero() {
       <div className="w-full px-20 mt-[-153px]">
         <div className="w-full flex items-center justify-between">
           <Image src={"/profileImg.png"} width={306} height={306} alt="" />{" "}
-          <span className="flex items-center gap-4 mt-[3.75rem] ">
+          <span className="flex items-center gap-4 mt-[3.75rem] cursor ">
             <Image width={32} height={32} alt="" src={"/linkedinLogo.png"} />
             <Image width={32} height={32} alt="" src={"/editIcon.png"} />
           </span>

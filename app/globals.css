@@ -14,4 +14,31 @@
   }
 .tabs .ant-tabs-nav{
     border-bottom: 1px solid #6B6B6B !important;
-}  
+} 
+
+.form .ant-form-item-required:before {
+    display: none !important;
+  }
+ .form .ant-input {
+  padding: 20px;
+  font-weight: 500;
+  font-size: 20px;
+  background: linear-gradient(90deg, #3366FA 0%, #4CC7F3 100%);
+  color: transparent; /* Set text color to transparent for gradient effect */
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+  .form .ant-form-item-label >label{
+    font-size: 20px !important;
+    font-weight: 400 !important; 
+    color : #00000040 !important;
+  }
+  .form .ant-input::placeholder{
+    font-weight: 500;
+    font-size: 20px;
+    color: #00000040 !important;
+
+}
+.form .ant-form-item{
+  margin-bottom: 8px !important;
+}
