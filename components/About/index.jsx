@@ -38,7 +38,7 @@ const about = 'A full-stack Software Engineer driven by a passion for knowledge.
       </div>
 
       <Modal
-        title={ <p className="mt-3 font-bold text-[2rem] text-gradient bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-blue-600 to-cyan-500">
+        title={ <p className="my-4 pb-3 border-b border-[#EDEDED] font-bold text-[2rem] text-gradient bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-blue-600 to-cyan-500">
         About Us
       </p>}
       width={'90%'}
@@ -48,13 +48,13 @@ const about = 'A full-stack Software Engineer driven by a passion for knowledge.
           <Button className='h-[3.5rem] text-xl font-medium rounded-full px-[2rem] py-[0.75rem] text-gradient bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-blue-600 to-cyan-500 border-gradient-to-blue-700 border-2'  key="back" onClick={handleCancel}>
             Cancel
           </Button>,
-          <Button className='text-xl font-normal rounded-full px-[3rem] py-[0.75rem] h-[3.5rem] text-white bg-gradient-to-r from-blue-500 to-blue-700' key="submit" type="" onClick={handleCancel}>
+          <Button className='text-xl font-normal rounded-full px-[3rem] py-[0.75rem] h-[3.5rem] text-white bg-gradient-to-r from-[#3366FA] to-[#4CC7F3]' key="submit" type="" onClick={handleCancel}>
             Save
           </Button>,
         ]}
       >
   <Input.TextArea
-  className='px-[2rem] py-[1.5rem] text-[#46484D] font-normal text-xl rounded-[1.875rem]'
+  className='px-[2rem] py-[1.5rem] text-[#46484D] font-normal text-xl rounded-[1.875rem] border border-gradient'
           rows={10} // Set the number of rows
           style={{ height: 438 }} // Set the width and height
           placeholder="Edit your about us content here..."

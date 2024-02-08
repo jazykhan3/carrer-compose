@@ -10,7 +10,7 @@ function SignUp() {
   };
   return (
     <div className="w-100 flex h-screen">
-      <div className="w-2/4 h-auto px-[2.5rem] pt-[7.313rem] bg-[#E8EFFE] flex justify-between items-center ">
+      <div className="w-2/4 h-auto px-[2.5rem] py-[9.75rem] bg-[#E8EFFE] flex justify-between items-center ">
         <Image src={"/signUp.png"} width={682} height={628} alt="" />
       </div>
       <div className="w-2/4 px-[6.25rem] pt-[7.313rem] flex flex-col justify-between pb-5">

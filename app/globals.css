@@ -42,3 +42,9 @@
 .form .ant-form-item{
   margin-bottom: 8px !important;
 }
+.border-gradient {
+  border-width: 1px;
+  border-image-source: linear-gradient(90deg, #3366FA 0%, #4CC7F3 100%);
+  border-image-slice: 1;
+  border-radius: 30px;
+}
